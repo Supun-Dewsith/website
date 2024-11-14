@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perosnal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/578d8f7df7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="imag/17314884864313870471823596804730.png" alt="logo" width="200px">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>SE Student</p>
+            <h1>Hi, I'm <span>Supun</span><br> Dewsith From Sri Lanka</h1>
+        </div>
+    </div>
+</div> 
+<!-- ----------------about--------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="imag/programmer-works-office-outside-window-big-city-ai-generated-272638357.webp">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a dedicated programming enthusiast specializing in backend development. I’m actively working on backend projects and enhancing my software engineering skills, with the goal of mastering backend technologies and succeeding in the tech industry.</p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contants active-tab" id="skills">
+                        <ul>
+                            <li><span>UX | UI</span><br>Web interface development</li>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>App Development</span><br>Building Android/IOS/windows apps</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contants" id="exprience">
+                        <ul>
+                            <li><span>Java | SQL </span><br>Java application development </li>
+                            <li><span>HTML | CSS | JS </span><br>Web app development</li>
+                            <li><span>Python</span><br>web development / data analysis / machine learning</li>
+
+                        </ul>
+                     </div>
+                     <div class="tab-contants" id="education">
+                        <ul>
+                            <li><span>BSc (Hons) in Software Engineering</span><br>Bachelor of Science Hons. A degree in Software Engineering in SLTC Research University.</li>
+                            
+
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div> 
+ <!-----------------------services------------------>
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Web development is the process of creating websites or web applications. It involves front-end design (HTML, CSS, JavaScript) for user interfaces and back-end development (server, databases) for functionality. It focuses on building responsive, dynamic, and user-friendly experiences.</p>
+            <a href="#">Learn more</a>
+
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>UI/UX design focuses on creating user-friendly interfaces and experiences, combining visual design (UI) with user experience (UX) to ensure intuitive, efficient, and enjoyable interaction with digital products.</p>
+            <a href="#">Learn more</a>
+
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>Standalone Applications</h2>
+            <p>Standalone applications are self-contained software programs that run independently on a device without requiring an internet connection or additional software dependencies, offering full functionality offline.</p>
+            <a href="#">Learn more</a>
+
+        </div>
+        
+
+        </div>
+    </div>
+ </div>
+ <!-----------------portfolio-------------------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imag/1d56c4e9889ac394b5f5aac9698e0bea.png" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>An online shopping app allows users to browse, search, and purchase products from various categories. It offers features like secure payments, product reviews, order tracking, and a seamless shopping experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="imag/new-weather-web-app-v0-0merzv3x9chb1.jpg" >
+                <div class="layer">
+                    <h3>Weather app</h3>
+                    <p>A weather app provides real-time forecasts, temperature updates, and alerts for various locations. It features interactive maps, hourly and weekly forecasts, and helps users plan activities based on weather conditions.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imag/nothing-music-app-fully-functional-v0-kokxjxd1h8ed1.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>A music app lets users stream, download, and organize songs from various genres. It offers personalized playlists, recommendations, offline listening, and features like lyrics, equalizers, and radio stations.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-------------------contant-------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>supundewsith@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+94 72 135 1684</p>
+            <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="imag/Untitled document (24).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>© 2024 supundewsith.<i class="fa-solid fa-heart"></i> All rights reserved. </i></p>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contants")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script> 
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
